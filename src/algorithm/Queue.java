@@ -28,7 +28,6 @@ public class Queue {
 
 
     //其他解法
-
     public void push(int node) {
         stack1.push(node);
     }
