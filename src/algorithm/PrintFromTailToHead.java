@@ -5,7 +5,7 @@
 package algorithm;
 
 import java.util.ArrayList;
-import baseclass.ListNode
+import baseclass.ListNode;
 /**
  *    public class ListNode {
  *        int val;
