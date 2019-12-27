@@ -28,11 +28,11 @@ public class Queue {
 
 
     //其他解法
-    public void push(int node) {
+    public void push1(int node) {
         stack1.push(node);
     }
 
-    public int pop() {
+    public int pop1() {
         if (stack2.size() <= 0) {
             while (stack1.size() != 0) {//将stack2的pop完后才会将stack1的压入stack2后再pop
                 stack2.push(stack1.pop());

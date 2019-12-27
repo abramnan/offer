@@ -45,9 +45,8 @@ public class RotateArray {
     * 网上的代码，可以提交成功，但是也有问题，比如333313，如果不重复还好。
     * */
 
-    import java.util.*;
     public class Solution {
-        public int minNumberInRotateArray(int [] nums) {
+        public int minNumberInRotateArray2(int [] nums) {
             if (nums.length == 1) {
                 return nums[0];
             }
@@ -75,7 +74,7 @@ public class RotateArray {
     }
 
     //暴力循环O(n)
-    public int minNumberInRotateArray(int [] array) {
+    public int minNumberInRotateArray3(int [] array) {
         for(int i =0;i<array.length-1;i++) {
             if (array[i] > array[i + 1])
                 return array[i + 1];
