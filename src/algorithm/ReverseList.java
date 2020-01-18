@@ -13,7 +13,7 @@ import baseclass.ListNode;
 
 /**
  * 输入一个链表，反转链表后，输出新链表的表头。
- * 在网上找的代码 
+ * 在网上找的代码
  */
 public class ReverseList {
     public ListNode reverseList(ListNode head){
