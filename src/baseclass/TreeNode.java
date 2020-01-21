@@ -1,8 +1,8 @@
 package baseclass;
 
 public class TreeNode {
-    private int val;
-    public TreeNode left;
-    public TreeNode right;
+    public int val = 0;
+    public TreeNode left = null;
+    public TreeNode right = null;
     public TreeNode(int x) { val = x; }
 }
