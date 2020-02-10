@@ -11,6 +11,7 @@ public class Multiply {
     //从右到左算B[i]*=A[i+1]*...*A[n-1]
     //19ms
     //9296k
+    //
     public int[] multiply(int[] A) {
         int[] B = new int[A.length];
         int result = 1;
